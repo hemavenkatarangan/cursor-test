@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+google:
+  calendar:
+    application-name: "Calendar Spring Demo"
+    # Absolute path to your service account JSON. If empty, ADC will be used.
+    credentials-file: "${GOOGLE_APPLICATION_CREDENTIALS:}"
+    # Share your calendar with the service account email, or set a specific ID here
+    calendar-id: "primary"
+
